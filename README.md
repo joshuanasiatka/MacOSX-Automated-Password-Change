@@ -1,4 +1,8 @@
-# Mac OS X Automated Password Change
+# macOS Automated Password Change
+
+***Note:***
+*This repository has been merged into [Macadmin Tools](https://github.com/joshuanasiatka/Macadmin-Tools)*
+
 Ever have that issue when you want to change the global local admin password that is used on basically every computer running OS X on your campus. Look no further, this will automate that password change for you with the help of a .pkg file and remote deployment software such as Dell KACE or Apple Remote Desktop (ARD).
 
 To change the password, modify the file <code>postinstall</code> located under <code>/scripts</code>. Open it with a plain text editor or nano via command line.
